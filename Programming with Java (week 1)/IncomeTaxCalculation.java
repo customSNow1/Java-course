@@ -11,13 +11,13 @@ public class Java_course {
         System.out.println("Enter empId");
         int id = sc.nextInt();
         System.out.println("Enter basic");
-        double basic = sc.nextInt();
+        double basic = sc.nextDouble();
         System.out.println("Enter specialAllowances");
-        double specAllowance = sc.nextInt();
+        double specAllowance = sc.nextDouble();
         System.out.println("Enter percentage of bonus");
-        double bonus = sc.nextInt();
+        double bonus = sc.nextDouble();
         System.out.println("Enter monthly tax saving investments");
-        double invest = sc.nextInt();
+        double invest = sc.nextDouble();
         
         double grossMonthly = basic + specAllowance;
         double grossAnnual = (grossMonthly*12);
