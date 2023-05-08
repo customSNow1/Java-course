@@ -83,6 +83,7 @@ public class Java_course {
   public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double total = 0;
+        System.out.println("enter 'y' to add items for billing");
         while(sc.nextLine().equals("y")){
             System.out.println("enter item code, description, qty and price of the item: ");
             String code = sc.nextLine();
@@ -91,6 +92,7 @@ public class Java_course {
             double price = sc.nextDouble();
             total += (quantity*price);
             sc.nextLine();
+            System.out.println("enter 'y' to add items for billing");
         }
         System.out.println("Total is : " + total);
         System.out.println("Enter mode of payment: ");
